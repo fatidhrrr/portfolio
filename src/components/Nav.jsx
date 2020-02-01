@@ -1,30 +1,34 @@
 import React, { Fragment } from "react";
-import Logo from "../img/logo.png";
 
 const Nav = () => {
     return (
         <Fragment>
 
-            <div className="row">
-                <div className="col-2">
-                    <img className="logo" src={Logo} alt="" />
-                </div>
+            <header>
+                <div className="row">
 
-                <ul className="liens col-10 nav justify-content-end">
-                    <li className="nav-item">
-                        <a className="nav-link active disabled" href="#">Active</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link disabled" href="#">Link</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link disabled" href="#">Link</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-            </div>
+                    <h1 className="logo col-4 ml5 text-center">
+                        <span className="mr-2">DAHRI</span>
+                        <i className="fas fa-code fa-2x mr-3"></i>
+                        <span>FATIMA</span>
+                    </h1>
+
+                    <ul className="liens col-8 nav justify-content-end">
+                        <li className="nav-item">
+                            <a className="nav-link active disabled text-white" href="#">Active</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link disabled text-white" href="#">Link</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link disabled text-white" href="#">Link</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link disabled text-white" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
         </Fragment>
     );
 }

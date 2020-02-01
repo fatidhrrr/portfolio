@@ -4,15 +4,33 @@ html {
 
 /* NAV  */
 
-/* IMG LOGO */
+/* LOGO */
 
 .logo {
-    width: 150px;
-    height: 100px;
-    margin-top: 15px;
-    margin-left: 15px;
+    transform-style: none;
+    position: absolute !important;
+    z-index: 1;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-right: 40px;
+    font-family: 'Lora', serif;
 }
 
 .liens {
     margin-top: 20px;
+    transform-style: none;
+    position: absolute !important;
+    z-index: 1;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 33%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.domaine {
+    transform-style: none;
+    position: absolute !important;
+    z-index: 1;
+    top: 270px;
+    margin-left: 500px;
 }
