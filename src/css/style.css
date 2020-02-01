@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAV  */
+
+/* IMG LOGO */
+
+.logo {
+    width: 150px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.liens {
+    margin-top: 20px;
+}
