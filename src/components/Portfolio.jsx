@@ -9,7 +9,7 @@ const Portfolio = () => {
     useEffect(() => {
     
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 1405 ) {
+            if (window.scrollY > 1880 ) {
                 setPhoto("col-6 d-flex justify-content-center animated swing")
                 setPhoto1("col-6 d-flex justify-content-center animated swing")
             } else {

@@ -1,5 +1,6 @@
 import React, { Fragment } from "react";
 import carousel from "../img/carousel.png";
+import Bureau from "../img/bureau.png"
 
 const Carousel = () => {
     return (
@@ -12,13 +13,13 @@ const Carousel = () => {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block img-fluid mx-auto" src={carousel} alt="First slide" />
+                        <img className="d-block img-fluid mx-auto" src={Bureau} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block img-fluid mx-auto" src={carousel} alt="Second slide" />
+                        <img className="d-block img-fluid mx-auto" src={Bureau} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block img-fluid mx-auto" src={carousel} alt="Third slide" />
+                        <img className="d-block img-fluid mx-auto" src={Bureau} alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

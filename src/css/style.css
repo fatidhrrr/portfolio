@@ -3,7 +3,7 @@ html {
 }
 
 .body {
-    margin: 2% 8%;
+    margin: 0% 8%;
 }
 
 /* NAV  */
@@ -13,9 +13,10 @@ html {
     transform-style: none;
     font-size: 17px;
     font-family: 'Poppins', sans-serif;
-    /* background: black; */
-    margin-top: 10px;
-    margin-left: 10px;
+}
+
+.liens:hover {
+    color: rgb(163,125,124);
 }
 
 /* LOGO */
@@ -35,31 +36,21 @@ html {
 }
 
 /* CAROUSEL */
-
+   
 .carousel {
-   margin-top: 70px;
-}
-
-/* ABOUT */
-
-/* .about {
-    font-family: 'Lora', serif;
-} */
-
-.divabout {
-    margin-top: 20px;
-}
-
-.dessin {
-    height: 200px;
-    width: 40%;
-    margin-top: 5px;
+   margin-top: 50px;
 }
 
 .diviseur{
     width: 80px;
     height: 3px;
     background-color: black;
+}
+
+/* SKILL */
+
+.barCouleur {
+    background-color: rgb(163,125,124) !important;
 }
 
 /* SERVICE  */
@@ -72,18 +63,41 @@ html {
 
 .service {
     margin-top: 60px;
+    color: black;
 }
 
 /* CONTACT  */
 
+
+a{color:black !important;}
+
+a:hover{color:rgb(163,125,124) !important;}
+
 .btn-envoyer {
     background-color: black;
     color: white;
-    font-family: 'Lora', serif;
+    font-family: 'Poppins', sans-serif;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
-.contact {
-    border-style: outset;
-    padding: 20px;
-    margin-top: 55px;
+/* FOOTER */
+
+.footer {
+    background-color: black;
+    padding: 30px;
+}
+
+.reseauxlogo {
+    border-radius: 50px;
+    padding: 8px;
+    background-color: white;
+    color: black;
+    width: 48px;
+    text-align: center;
+}
+
+.reseauxlogo:hover {
+    color: rgb(163,125,124);
 }
