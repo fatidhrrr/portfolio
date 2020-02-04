@@ -12,13 +12,13 @@ const Carousel = () => {
                 </ol>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img className="d-block w-100" src={carousel} alt="First slide" />
+                        <img className="d-block img-fluid mx-auto" src={carousel} alt="First slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={carousel} alt="Second slide" />
+                        <img className="d-block img-fluid mx-auto" src={carousel} alt="Second slide" />
                     </div>
                     <div className="carousel-item">
-                        <img className="d-block w-100" src={carousel} alt="Third slide" />
+                        <img className="d-block img-fluid mx-auto" src={carousel} alt="Third slide" />
                     </div>
                 </div>
                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -28,11 +28,6 @@ const Carousel = () => {
                     <span className="sr-only">Next</span>
                 </a>
             </div>
-
-            {/* <div className="domaine">
-                <h1>I am a Full Stack Developer</h1>
-                <h2>Front-end / Back-end</h2>
-            </div> */}                        
         </Fragment>
     );
 }

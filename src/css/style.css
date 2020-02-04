@@ -2,35 +2,88 @@ html {
     scroll-behavior: smooth;
 }
 
+.body {
+    margin: 2% 8%;
+}
+
 /* NAV  */
+
+.liens {
+    list-style: none;
+    transform-style: none;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    /* background: black; */
+    margin-top: 10px;
+    margin-left: 10px;
+}
 
 /* LOGO */
 
 .logo {
     transform-style: none;
-    position: absolute !important;
-    z-index: 1;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-right: 40px;
+    font-size: 30px;
+    margin-top: 40px;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    margin-bottom: 30px;
+}
+
+.fullstack {
+    font-family: 'Poiret One', cursive;
+    font-size: 17px;
+}
+
+/* CAROUSEL */
+
+.carousel {
+   margin-top: 70px;
+}
+
+/* ABOUT */
+
+/* .about {
+    font-family: 'Lora', serif;
+} */
+
+.divabout {
+    margin-top: 20px;
+}
+
+.dessin {
+    height: 200px;
+    width: 40%;
+    margin-top: 5px;
+}
+
+.diviseur{
+    width: 80px;
+    height: 3px;
+    background-color: black;
+}
+
+/* SERVICE  */
+
+.titre {
+    text-align: center;
+    margin-top: 50px;
     font-family: 'Lora', serif;
 }
 
-.liens {
-    margin-top: 20px;
-    transform-style: none;
-    position: absolute !important;
-    z-index: 1;
-    font-size: 20px;
-    margin-top: 10px;
-    margin-left: 33%;
-    font-family: 'Poppins', sans-serif;
+.service {
+    margin-top: 60px;
 }
 
-.domaine {
-    transform-style: none;
-    position: absolute !important;
-    z-index: 1;
-    top: 270px;
-    margin-left: 500px;
+/* CONTACT  */
+
+.btn-envoyer {
+    background-color: black;
+    color: white;
+    font-family: 'Lora', serif;
+}
+
+.contact {
+    border-style: outset;
+    padding: 20px;
+    margin-top: 55px;
 }
