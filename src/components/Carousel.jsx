@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import carousel from "../img/carousel.png";
 import Bureau from "../img/bureau.png"
 
 const Carousel = () => {

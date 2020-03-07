@@ -9,7 +9,7 @@ const Portfolio = () => {
     useEffect(() => {
     
         window.addEventListener('scroll', () => {
-            if (window.scrollY > 1880 ) {
+            if (window.scrollY > 2059 ) {
                 setPhoto("col-6 d-flex justify-content-center animated swing")
                 setPhoto1("col-6 d-flex justify-content-center animated swing")
             } else {
@@ -20,7 +20,7 @@ const Portfolio = () => {
     })
     return (
         <Fragment>
-            <section>
+            <section id="portfolio">
                 <h2 className="titre text-center">Portfolio</h2>
                 <hr className="diviseur"></hr>
 

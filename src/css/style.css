@@ -4,6 +4,7 @@ html {
 
 .body {
     margin: 0% 8%;
+    font-family: 'Poiret One', cursive;
 }
 
 /* NAV  */
@@ -15,9 +16,9 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
-.liens:hover {
-    color: rgb(163,125,124);
-}
+a{color:black !important;}
+
+a:hover{color:rgb(163,125,124) !important;}
 
 /* LOGO */
 
@@ -47,6 +48,12 @@ html {
     background-color: black;
 }
 
+/* ABOUT  */
+
+.about {
+    font-size: 23px;
+}
+
 /* SKILL */
 
 .barCouleur {
@@ -68,15 +75,9 @@ html {
 
 /* CONTACT  */
 
-
-a{color:black !important;}
-
-a:hover{color:rgb(163,125,124) !important;}
-
 .btn-envoyer {
     background-color: black;
     color: white;
-    font-family: 'Poppins', sans-serif;
     padding: 8px;
     border-radius: 5px;
     margin-top: 15px;
@@ -100,4 +101,9 @@ a:hover{color:rgb(163,125,124) !important;}
 
 .reseauxlogo:hover {
     color: rgb(163,125,124);
+}
+
+.backto {
+    text-align: center;
+    list-style: none;
 }
