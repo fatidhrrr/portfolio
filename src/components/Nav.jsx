@@ -26,7 +26,7 @@ const Nav = () => {
                     <a className="nav-link ml-2 " href="#contact">Contact</a>
                 </li>
             </ul>   
-        </nav>    
+        </nav>
     );
 }
 

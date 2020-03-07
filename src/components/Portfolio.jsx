@@ -26,11 +26,11 @@ const Portfolio = () => {
 
                 <div className="row mt-5">
                     <div className={photo}>
-                        <img className="w-75" src={Chef} alt="" />
+                        <img className="w-75 col-sm-6 col-3" src={Chef} alt="" />
                     </div>
 
                     <div className={photo1}>
-                        <img className="w-75" src={Emporium} alt="" />
+                        <img className="w-75 col-sm-6 col-3" src={Emporium} alt="" />
                     </div>
                 </div>
             </section>

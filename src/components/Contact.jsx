@@ -34,7 +34,7 @@ const Contact = () => {
                         </div>
                     </form>
                 </div>
-            </div>
+            </div>     
             <div className="row">
                 <div className="col-md-1 col-12"></div>
             </div>
