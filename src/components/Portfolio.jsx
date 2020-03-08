@@ -1,6 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
-import Chef from "../img/chef.png"
-import Emporium from "../img/emporium.png"
+import Chef from "../img/chef1.png";
+import Emporium from "../img/emporium1.png";
 
 const Portfolio = () => {
     const [photo, setPhoto] = useState("col-6 d-flex justify-content-center")
@@ -17,7 +17,7 @@ const Portfolio = () => {
                 setPhoto1("col-6 d-flex justify-content-center")
             }
         })
-    })
+    })    
     return (
         <Fragment>
             <section id="portfolio">
@@ -26,15 +26,15 @@ const Portfolio = () => {
 
                 <div className="row mt-5">
                     <div className={photo}>
-                        <img className="w-75 col-sm-6 col-3" src={Chef} alt="" />
+                        <img className="w-75" src={Chef} alt="" />
                     </div>
 
                     <div className={photo1}>
-                        <img className="w-75 col-sm-6 col-3" src={Emporium} alt="" />
+                        <img className="w-75" src={Emporium} alt="" />
                     </div>
                 </div>
             </section>
-        </Fragment>
+        </Fragment>  
     );
 }
 
