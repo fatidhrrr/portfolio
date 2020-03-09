@@ -107,3 +107,11 @@ a:hover{color:rgb(163,125,124) !important;}
     text-align: center;
     list-style: none;
 }
+
+@media screen and (max-width:540px){
+
+    .imageAnim{
+        height: 100px;
+        width: 150px;
+    }
+}

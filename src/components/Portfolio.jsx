@@ -4,17 +4,16 @@ import Emporium from "../img/emporium1.png";
 
 const Portfolio = () => {
     const [photo, setPhoto] = useState("col-6 d-flex justify-content-center")
-    const [photo1, setPhoto1] = useState("col-6 d-flex justify-content-center")
 
     useEffect(() => {
     
         window.addEventListener('scroll', () => {
             if (window.scrollY > 2059 ) {
                 setPhoto("col-6 d-flex justify-content-center animated swing")
-                setPhoto1("col-6 d-flex justify-content-center animated swing")
+
             } else {
                 setPhoto("col-6 d-flex justify-content-center")
-                setPhoto1("col-6 d-flex justify-content-center")
+        
             }
         })
     })    
@@ -24,15 +23,15 @@ const Portfolio = () => {
                 <h2 className="titre text-center">Portfolio</h2>
                 <hr className="diviseur"></hr>
 
-                <div className="row mt-5">
-                    <div className={photo}>
-                        <img className="w-75" src={Chef} alt="" />
+                <div className="row mt-5 imageBlock">
+                    <div className={photo+" imageAnim"}>   
+                        <img className="w-100 " src={Chef} alt="" />
                     </div>
 
-                    <div className={photo1}>
-                        <img className="w-75" src={Emporium} alt="" />
+                    <div className={photo+" imageAnim"}>
+                        <img className="w-100 " src={Emporium} alt="" />
                     </div>
-                </div>
+                </div>     
             </section>
         </Fragment>  
     );
