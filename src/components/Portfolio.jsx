@@ -4,9 +4,7 @@ import Emporium from "../img/emporium1.png";
 
 const Portfolio = () => {
     const [photo, setPhoto] = useState("col-6 d-flex justify-content-center")
-
     useEffect(() => {
-    
         window.addEventListener('scroll', () => {
             if (window.scrollY > 2059 ) {
                 setPhoto("col-6 d-flex justify-content-center animated swing")
